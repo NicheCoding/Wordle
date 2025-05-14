@@ -20,7 +20,7 @@ X3 = "A"
 X4 = "S"
 X5 = "T"
 
-
+import string
 
 iterations = 6 
 iteration = 0
@@ -127,7 +127,13 @@ while (iteration <6): #runs for 6 iterations then ends
     
     answer = (ans1+" | "+ans2+" | "+ans3+" | "+ans4+" | "+ans5)
     print(answer) #print the whole thing together
+    alphabet = list(string.ascii_uppercase) #list of all alphabet
+    print(alphabet)
+    for i, item in enumerate(alphabet):
+        if item == X1:
+            alphabet[i] = color_string(str(X1), "33")  # Replace X1 in list with yellow X1 in list
 
+    print(alphabet)
 
     print()
     if (L1 ==X1 and L2 == X2 and L3 ==X3 and L4 == X4 and L5 == X5) and iteration == 1:
