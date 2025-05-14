@@ -10,7 +10,7 @@ print()
 
 print("Why are you looking at this, I thought you wanted the element of surprise?")
 print()
-print("Current Rules - enter in one letter at a time, no spaces (strip not yet implemented) must be in all caps (caps not yet implemented - on other computer will be all lowercase)")
+print("Current Rules - enter in one letter at a time, HAS strip, must be in all caps (caps not yet implemented - on other computer will be all lowercase)")
 print()
 #word = yeast  
 
